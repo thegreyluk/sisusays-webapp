@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scopes",
+  "info": {
+    "singularName": "scope",
+    "pluralName": "scopes",
+    "displayName": "Scope"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Country of Finnland ",
+        "Ministry Department",
+        "Comprehensive School",
+        "University",
+        "Appartment Building",
+        "City of Helsinki ",
+        "District of Kallio",
+        "Region of Uusimaa"
+      ]
+    },
+    "scopeOperator": {
+      "type": "string"
+    },
+    "scopeOperatorEmail": {
+      "type": "string"
+    },
+    "scopeURL": {
+      "type": "string"
+    },
+    "scopeCity": {
+      "type": "string"
+    },
+    "scopeZIP": {
+      "type": "string"
+    },
+    "scopeStreet": {
+      "type": "string"
+    }
+  }
+}
